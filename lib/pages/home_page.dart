@@ -120,7 +120,7 @@ class _HomePageState extends State<HomePage> {
           ),
           TextButton(
             onPressed: () {
-              formkey.currentState!.validate();
+              Navigator.pushNamed(context, '/main');
             },
             child: const Text(
               'validate',
